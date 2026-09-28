@@ -1,0 +1,38 @@
+{
+  "status": "passed",
+  "effort_weights": {
+    "0.1": {
+      "prediction_replay_max_error": 4.440892098500626e-16,
+      "mpc_input_max_difference": 3.4416913763379853e-15,
+      "mpc_output_max_difference": 7.771561172376096e-16,
+      "mpc_objective_difference": 2.6645352591003757e-14,
+      "closed_loop_prediction_max_error": 6.661338147750939e-16,
+      "input_bound_violation": 0.0,
+      "output_bound_violation": 0.0
+    },
+    "0.01": {
+      "prediction_replay_max_error": 3.3306690738754696e-16,
+      "mpc_input_max_difference": 1.6887505610173468e-14,
+      "mpc_output_max_difference": 9.992007221626409e-16,
+      "mpc_objective_difference": 2.4868995751603507e-14,
+      "closed_loop_prediction_max_error": 9.992007221626409e-16,
+      "input_bound_violation": 0.0,
+      "output_bound_violation": 0.0
+    },
+    "1.0": {
+      "prediction_replay_max_error": 3.885780586188048e-16,
+      "mpc_input_max_difference": 8.881784197001252e-16,
+      "mpc_output_max_difference": 7.771561172376096e-16,
+      "mpc_objective_difference": 2.4868995751603507e-14,
+      "closed_loop_prediction_max_error": 5.551115123125783e-16,
+      "input_bound_violation": 2.220446049250313e-16,
+      "output_bound_violation": 0.0
+    }
+  },
+  "additional_checks": [
+    "Hankel indexing",
+    "multi-channel stacking",
+    "constant input fails excitation",
+    "noisy solve and input bounds"
+  ]
+}
